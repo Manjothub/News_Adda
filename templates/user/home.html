@@ -1,0 +1,14 @@
+{% extends "common/base.html" %}
+{% load static %}
+{% block body %}
+{% for news in articles %}
+<article class="col-lg-3 card col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+    <figure>
+        <img src="{{news.urlToImage}}" alt="Image" class="img-responsive">
+    </figure>
+    <h2 class="fh5co-article-title" style="font-size: 20px;">{{news.title}}</h2>
+    <span class="fh5co-meta fh5co-date">Published at:{{news.publishedAt}}</span>
+</article>
+<div class="clearfix visible-xs-block"></div>
+{% endfor %}
+{% endblock body %}
