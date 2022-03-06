@@ -593,12 +593,9 @@ figure figcaption {
   margin-bottom: 30px;
 }
 #fh5co-offcanvas .fh5co-bio img {
-  width: 180px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
 }
 #fh5co-offcanvas .fh5co-bio p {
   font-size: 16px;
